@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
+    box-sizing: border-box;
+    background-color: rgb(67, 66, 66);
     color: white;
 }
 
@@ -16,20 +17,58 @@
 .menu-btn{
      margin-right: 10px;
      font-size: 20px;
-     font-family: monospace;
+     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .section{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: auto;
+    /* padding: 10px; */
+    height: 1000px;
+    /* max-width: 1300px; */
+    /* background-color: rgb(65, 66, 86); */
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 300px;
-    width: 800px;
-    background-color: aliceblue;
+    align-items: flex-start;
+    background-color: yellow;
+    max-width: 1500px;
+    padding: 2rem;
 }
 
 .card-container{
     display: flex;
-    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: antiquewhite;
-    width: 80%;
+    padding: 2rem;
+    width: 500px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    font-family: 'Anton', sans-serif;
+}
+
+.filter{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
 }
